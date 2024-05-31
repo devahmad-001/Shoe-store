@@ -1,0 +1,31 @@
+nav{
+    background-color: #ffffff;
+    height: 81px;
+    padding-block: 12px;
+}
+
+.naver{
+    width: 50px;
+}
+
+.nav-wrapper li{
+    margin-inline: 20px ;
+}
+#nav-mobile{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navtext1{
+    color: dimgray;
+    font-weight: 500;
+    font-size: 17px;
+    
+}
+
+.navtext2{
+    color: grey;
+    font-weight: 400;
+    font-size: 17px;
+}

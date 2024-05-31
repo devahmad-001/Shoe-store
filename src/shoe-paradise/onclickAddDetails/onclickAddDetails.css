@@ -1,0 +1,109 @@
+.dell{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0px;
+}
+.showpageimgcontainer{
+    display: flex ;
+    height: fit-content;
+    align-self: flex-start;
+}
+
+.sideshowpageimgdetails{
+   width: 57px;
+   margin-bottom: 10px;
+   border: 1px solid grey;
+   border-radius: 15px;
+   padding: 8px;
+}
+.sideshowpageimgdetails:hover{
+
+   box-shadow: 0 0 10px 5px skyblue;
+
+}
+
+.sideshowpageimgcontainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+.sideshowpageimg{
+    width: 265px;
+    margin-left: 10px;
+}
+
+
+.sideshowpageimg-container{ 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
+
+.showpagecontent{
+  
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   margin-left: 35px;
+}
+
+
+
+.showpageshoesizebtn{
+ width: 100px;
+ margin: 10px;
+   border-radius: 10px;
+   height: 35px;
+   border: 2px solid grey;
+   background: white;
+   
+}
+
+
+
+.showpageshoesizebtn:hover{
+   background-color: grey;
+}
+
+.showpageshoesizecontainer{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+
+.showpageshoesizecontainer>h5{
+  align-self: flex-start;
+  text-align: center;
+}
+.addtocart{
+
+   height: 43px;
+   border-radius: 20px;
+   border: 1px solid grey;
+   margin: 20px 0px;
+   width: 467px;
+   margin: 10px;
+}
+
+.onlinepayment:hover{
+   background-color: grey;
+}
+
+
+/* .showpagecontentcontainer{
+   width: fit-content;
+} */
+.showpageshoesize{
+   width: 500px;
+   display: flex;
+   flex-wrap: wrap;
+}

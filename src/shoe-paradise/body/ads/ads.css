@@ -1,0 +1,482 @@
+
+
+/*1. Ads run => */
+
+#Runads{
+    margin-top: 60px;
+  display: flex;
+  flex-direction: column;     
+}
+ #adsh1{
+     font-size: xx-large;
+     text-align: center;
+     font-weight: 600;
+     font-family: sans-serif;
+     width: fit-content;
+     height: fit-content;
+ }
+
+ #adsheadingbox{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+
+ #adsrun{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     flex-direction: row;
+     margin-bottom:50px;
+    }
+
+ #card{
+     width: 275px;
+     height: 400px;
+     margin-bottom: 15px;
+ }
+
+ #picbox{
+     width: 275px;
+     height: 400px; 
+     position: absolute;
+ }
+ #adspictures{
+     width: 100%;
+     height: 100%;
+ }
+
+ #descbox{
+     position: relative;
+     display: flex;
+    align-items: end;
+    width: 275px;
+    height: 300px;
+     
+ }
+ 
+ #detail{
+     width: fit-content;
+     height: fit-content;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+
+ }
+
+ #content{
+     font-size: 15px;
+     text-align: center;
+    font-weight: 400;
+    color: white;
+ }
+
+ #title{
+     text-align: center;
+     margin: 0;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+ }
+
+
+
+
+
+
+
+ /*  2 . Gender Picture box=>  */
+
+
+ #Genderpic{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 75px;
+ }
+
+ .box{
+     width: 525px;
+     height: 520px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 20px;
+ }
+
+
+#malecontent{
+     flex-wrap: wrap;
+     position: absolute; 
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    width: fit-content;
+    height: 280px;
+    justify-content: end;
+}
+ .male{
+     width: 100%;
+     height: 100%;
+ }
+
+
+ #heading{
+     font-size: 32px;
+     font-weight: 700;
+     margin: 0;
+     text-align: center;
+    color: white;
+
+ }
+ 
+ #paragph{
+     font-size: 17px;
+     margin: 0;
+    color: white;
+
+ }
+
+
+
+
+
+
+
+/*3. Featured => */
+
+
+#perfectshoes{
+    display: flex;
+    flex-direction: column;
+}
+
+#featurednav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-self: flex-start;
+}
+
+#featuredads{
+    display: flex;
+    flex-direction: column;
+}
+
+
+ #h1feature {
+     font-size:33px;
+     font-weight: 700;
+     font-family: Arial;
+     text-align: center;
+     width: fit-content;
+     height: fit-content;
+     padding-inline-start: 20px;
+ }
+
+
+#featured{
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     margin-bottom: 75px;
+     flex-direction: row;
+}
+
+#Featuredcard{
+     width: 223.5px;
+     height: 470px;
+     
+     margin: 0;
+     display: flex;
+     flex-direction: column;
+ }
+
+ #featuredimgbox{
+     width: 223.5px;
+     height: 300px;
+     
+ }
+
+
+ #featureddescbox{
+     width: 223.5px;
+     height: 170px;
+ }
+
+
+ #Featuredpic{
+     width: 100%;
+     height: 100%;
+ }
+
+#featuredheading{
+     font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    margin-top: 15px;
+}
+
+
+#featuredpara{
+     font-size: 14px;
+    text-align: center;
+}
+
+ 
+
+
+/*4. Find your perfect shoe =>*/
+
+
+
+
+#perfectshoebox{
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+      #shoeheading{
+           text-align: center;
+     font-size: 34px;
+     font-weight: 600;
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+      }
+      #shoepara{
+     font-size: 16px;
+     text-align: center;
+      }
+
+
+
+
+      #perfectshoeads{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          margin-bottom: 70px;
+      }
+
+      #perfectcards{
+          width: 385px;
+          height: 281px;
+          margin-bottom: 20px;
+      }
+      
+
+      #perfectimgbox{
+          display: flex;
+          width: 385px;
+          height: 281px;
+          justify-content: center;
+          align-items: center;
+      }
+
+      #perfectimg{
+          width: 100%;
+          height: 100%;
+      }
+
+      #perfectshoedesc{
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          width: 347px;
+          height: 192px;
+          justify-content: end;
+        }
+
+      #perfectshoeh1{
+          font-size: 26px;
+    font-weight: 700;
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+    color: white;
+
+      }
+
+      #perfectshoepara{
+          text-align: center;
+          font-size: 15px;
+         color: white;
+        };
+
+
+
+
+
+    #wid{width: 1px;height: 1px;}  /*5. Find your Breakdownhub shoe =>*/
+ 
+
+   
+
+
+    #hubBreak{
+        margin: 0 auto;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:#F6F6F6;;
+        flex-wrap: wrap;
+        padding: 53px;
+        margin-bottom: 60px;
+    }
+
+    #hub{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       flex-wrap: wrap;
+    }
+    #hubpara{
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 30px;
+        text-decoration: underline;
+    }
+    #hubimgbox{
+        width: 182px;
+        height: 54px;
+    }
+    #hubimg{
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+
+
+
+
+
+   #Breakdown{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+   }
+   
+   #Breakdowncard{
+        width: 285x;
+        height: 423px;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+   
+    #Breakdownimgbox{
+        width: 275px;
+        height: 207px;
+        
+    }
+   
+   
+    #Breakdowndescbox{
+         width: 275px;
+        height: 170px;
+    }
+   
+   
+    #Breakdownpic{
+        width: 100%;
+        height: 100%;
+    }
+   
+   #Breakdownheading{
+        font-size: 24px;
+       font-weight: 700;
+       text-align: start;
+       margin: 0;
+       margin-top: 15px;
+   }
+   
+   
+   #Breakdownpara{
+        font-size: 14px;
+       text-align: start;
+   }
+   
+
+
+
+
+#some{width: 1px;height: 1px;}   /* 5.  Parteners */
+
+   #partnav{
+    display: flex;
+justify-content: center;
+
+}
+
+#partnernavh1{
+    font-size: 35px;
+    width: fit-content;
+    height: fit-content;
+    font-weight: 500;
+    font-family: Arial;
+}
+
+
+   #Partner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 15px;
+   }
+
+
+   #Partnercard{
+      width: 284px;
+      height: 207px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+   }
+
+
+   #Partnerpic{
+    width: 100%;
+    height: 100%;
+    }
+
+    #Partnerdescbox{
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    #Partnerheading{
+        margin: 0;
+        font-size: 27px;
+    font-weight: 700;
+    width: 200px;
+    text-align: center;
+    color: white
+    };
+
+   
+   
+    
+#other{
+    width: 1px;
+    height: 1px;
+}
+
+#before{
+    width: 1px;
+    height: 1px;
+}

@@ -1,0 +1,323 @@
+
+#dashboardcontanier{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
+  
+  
+  #Dashboard{
+    height: 155px;
+    width: 196px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    padding-inline-end: 25px;
+    box-shadow: 0px 0px 10px -5px;
+     
+  }
+  
+  
+  #Products{
+    height: 200px;
+    width: 196px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    padding-inline-end: 25px;
+    box-shadow: 0px 0px 10px -5px;
+  
+  }
+  
+  
+  #Orders{
+    height: 300px;
+    width: 196px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    padding-inline-end: 25px;
+    box-shadow: 0px 0px 10px -5px;
+  }
+  
+  #Dashboard>p,#Products>p,#Orders>p{
+    font-size: large;
+    color: grey;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+
+  .link{
+    font-size: large;
+    color: grey;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  
+  #Dashboard>h5,#Products>h5,#Orders>h5{
+    margin-left: 20px;
+      padding-top: 20px;
+      font-size: large;
+      font-weight: bolder;
+      margin-bottom: 30px;
+  }
+  
+  #aside{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  
+  
+  #asidebody{
+      display: flex;
+      flex-direction: column;
+      flex-basis: 960px;
+      margin-block: 55px;
+  }
+  
+  
+  
+  
+  
+  #asidebody1{
+    background-color: #ffffff;
+  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+  box-shadow: 0px 0px 10px -5px;
+  margin-bottom: 15px;
+  
+  }
+  
+  #aside{
+    width: fit-content;
+    margin: 35px;
+  }
+  
+  
+  #box1 {
+      flex-basis: 306px;
+      display: flex;
+      border-right: 1px solid lightgrey;
+      padding-left: 3px;
+      padding-top: 10px;
+      padding-bottom: 12px;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-bottom: 15px;
+  }
+  #totalordersimg{
+    width: 70px;
+  }
+  
+  #box1content>p{
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  #box1content>h6{
+   color: grey;
+   text-align: center;
+  }
+  
+  
+  
+  #asidebody1>.endbox{
+    border-right: none;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #asidebody2{
+    margin-bottom: 15px;
+      background-color: #ffffff;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      box-shadow: 0px 0px 10px -5px;
+      padding: 20px;
+    } 
+  
+  li{
+    font-weight: 700;
+      color: grey;
+      font-size: 17px;
+      margin: 0;
+  }
+  
+  #orderlist{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+     margin-top: 15px;
+
+  }
+  
+  #orderlist>ul>li{
+    list-style: none;
+  } 
+
+  #orders{
+    display: flex;
+    width: 175px;
+    align-items: center;
+  }
+  
+  #orders>p{
+    margin: 0;
+    width: fit-content;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  #box2{
+    border-right: 1px solid lightgray;
+    margin-left: 15px;
+    flex-basis: 290px;
+    margin-bottom: 10px;
+    margin-bottom: 15px;
+  
+  }
+  
+  #box2.boxborder{
+    border-right: none;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .title{
+    display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+  }
+  
+  
+  #Ordertails{
+  padding: 25px;
+  background-color: #ffffff
+  }
+  
+  #Ordertails>h5,p{
+  font-size: 16px;
+  color: gray;
+  font-weight: 500;
+  
+  }
+  
+  .title>h5,p{
+    margin-top: 0;
+  }
+  
+  
+  #description{
+    display: flex;
+    padding-block-end: 5px;
+  }
+  
+  #description>p{
+    margin: 0;
+  }
+  
+  
+  #description>#quantinty{
+    margin-left: 35px;
+  }
+  
+  
+  #deliverd{
+    font-size: 18px;
+    color: lightgreen;
+    margin-bottom: 0;
+    align-self: end;
+  }
+  
+  #deliverd:hover{
+    color: black;
+  }
+  
+  .orderbox{
+    border-bottom: 2px solid gainsboro;
+    margin-bottom: 10px;
+  }
+
+  
+
+
+
+
+
+
+
+
+  /* :root {
+    --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+  }
+  
+ 
+  div.productcard {
+    background: #222;
+    border: 1px solid #dd2476;
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    border: 5px solid;
+    border-image-slice: 1;
+    background: var(--gradient) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    border-image-source:  var(--gradient) !important; 
+    text-decoration: none;
+    transition: all .4s ease;
+  }
+  
+  .btn:hover, .btn:focus {
+        background: var(--gradient) !important;
+    -webkit-background-clip: none !important;
+    -webkit-text-fill-color: #fff !important;
+    border: 5px solid #fff !important; 
+    box-shadow: #222 1px 0 10px;
+    text-decoration: underline;
+  }
+
+
+  #aref{
+    display: flex;
+  } */

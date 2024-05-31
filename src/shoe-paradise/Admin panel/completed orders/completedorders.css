@@ -1,0 +1,64 @@
+
+.title{
+    display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+  }
+  
+ #orderdetailscontainer{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+} 
+  
+  #Ordertailsofcompletedorders{
+  padding: 25px;
+  box-shadow: 0px 0px 17px -2px lightgray;
+  background-color: #ffffff
+  }
+  
+  #Ordertails>h5,p{
+  font-size: 16px;
+  color: gray;
+  font-weight: 500;
+  
+  }
+  
+  .title>h5,p{
+    margin-top: 0;
+  }
+  
+  
+  #description{
+    display: flex;
+    padding-block-end: 5px;
+  }
+  
+  #description>p{
+    margin: 0;
+  }
+  
+  
+  #description>#quantinty{
+    margin-left: 35px;
+  }
+  
+  
+  #deliverd{
+    font-size: 18px;
+    color: lightgreen;
+    margin-bottom: 0;
+    align-self: end;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 10px;
+  }
+  
+  #deliverd:hover{
+    color: black;
+  }
+  
+  .orderbox{
+    border-bottom: 2px solid gainsboro;
+    margin-bottom: 10px;
+  }
