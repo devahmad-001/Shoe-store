@@ -2,7 +2,7 @@ import "./login-Signup-Reset-form.css"
 
 import { useForm } from "react-hook-form"
 import axios from "axios";
-import { Link, useParams } from "react-router-dom"
+import { Link, useParams ,useNavigate } from "react-router-dom"
 import { v4 } from "uuid";
 
 import { useEffect, useState } from "react";
@@ -13,13 +13,14 @@ export function Signuphoestore() {
  
     let {register,handleSubmit ,reset}=useForm();
   
-   
+   let move =useNavigate()
 
     function signupdata(signup) {
       
       signup.id=v4();
   
-      axios.post('/create-user',signup)
+      axios.post('/create-user',signup);
+      move('/Login')
       
     };
   
