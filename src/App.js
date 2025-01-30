@@ -269,10 +269,12 @@ export default function App() {
 
     axios.post('/local-storage',{Token:localStorage.getItem("logintoken")}).then((res)=>{
       
-      dispatch({
+      dispatch(
+        {
         type:"User-login",
         Payload:res.data
-      })
+      }
+    )
 
     })    
 
